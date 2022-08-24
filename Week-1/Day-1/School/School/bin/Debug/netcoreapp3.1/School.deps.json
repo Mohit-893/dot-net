@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "School/1.0.0": {
+        "dependencies": {
+          "Studentdata": "1.0.0",
+          "Teacherdata": "1.0.0"
+        },
+        "runtime": {
+          "School.dll": {}
+        }
+      },
+      "Studentdata/1.0.0": {
+        "runtime": {
+          "Studentdata.dll": {}
+        }
+      },
+      "Teacherdata/1.0.0": {
+        "runtime": {
+          "Teacherdata.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "School/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Studentdata/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Teacherdata/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

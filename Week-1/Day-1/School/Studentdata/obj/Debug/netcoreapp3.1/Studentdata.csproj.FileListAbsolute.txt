@@ -1,0 +1,10 @@
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-1\School\Studentdata\bin\Debug\netcoreapp3.1\Studentdata.deps.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-1\School\Studentdata\bin\Debug\netcoreapp3.1\Studentdata.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-1\School\Studentdata\bin\Debug\netcoreapp3.1\Studentdata.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-1\School\Studentdata\obj\Debug\netcoreapp3.1\Studentdata.csproj.AssemblyReference.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-1\School\Studentdata\obj\Debug\netcoreapp3.1\Studentdata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-1\School\Studentdata\obj\Debug\netcoreapp3.1\Studentdata.AssemblyInfoInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-1\School\Studentdata\obj\Debug\netcoreapp3.1\Studentdata.AssemblyInfo.cs
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-1\School\Studentdata\obj\Debug\netcoreapp3.1\Studentdata.csproj.CoreCompileInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-1\School\Studentdata\obj\Debug\netcoreapp3.1\Studentdata.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-1\School\Studentdata\obj\Debug\netcoreapp3.1\Studentdata.pdb

@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Studentdata/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Studentdata.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Studentdata.dll": {}
+        }
+      },
+      "Teacherdata/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Teacherdata.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Teacherdata.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Studentdata/1.0.0": {
+      "type": "project",
+      "path": "../Studentdata/Studentdata.csproj",
+      "msbuildProject": "../Studentdata/Studentdata.csproj"
+    },
+    "Teacherdata/1.0.0": {
+      "type": "project",
+      "path": "../Teacherdata/Teacherdata.csproj",
+      "msbuildProject": "../Teacherdata/Teacherdata.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Studentdata >= 1.0.0",
+      "Teacherdata >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mohit\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-1\\School\\School\\School.csproj",
+      "projectName": "School",
+      "projectPath": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-1\\School\\School\\School.csproj",
+      "packagesPath": "C:\\Users\\mohit\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-1\\School\\School\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-1\\School\\Studentdata\\Studentdata.csproj": {
+              "projectPath": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-1\\School\\Studentdata\\Studentdata.csproj"
+            },
+            "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-1\\School\\Teacherdata\\Teacherdata.csproj": {
+              "projectPath": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-1\\School\\Teacherdata\\Teacherdata.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
