@@ -46,6 +46,7 @@ namespace Task_2
             a1.display();
             a2.display();
 
+            //Static Class
             //myMath ob = new myMath();
             int n = 8;
             Console.WriteLine("Pi value is : " + myMath.pi);
