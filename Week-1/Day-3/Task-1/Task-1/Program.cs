@@ -11,17 +11,17 @@ namespace Task_1
             switch (num)
             {
                 case 1:
-                    Customer cs = new Customer();
+                    Customerdata.Customer cs = new Customerdata.Customer();
                     cs.enterdata();
                     cs.display();
                     break;
                 case 2:
-                    Product p = new Product();
+                    Productdata.Product p = new Productdata.Product();
                     p.enterdata();
                     p.display();
                     break;
                 case 3:
-                    Order o = new Order();
+                    Orderdata.Order o = new Orderdata.Order();
                     o.enterdata();
                     o.display();
                     break;

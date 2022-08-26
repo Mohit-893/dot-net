@@ -6,4 +6,10 @@
     <RootNamespace>Task_1</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Customerdata\Customerdata.csproj" />
+    <ProjectReference Include="..\Orderdata\Orderdata.csproj" />
+    <ProjectReference Include="..\Productdata\Productdata.csproj" />
+  </ItemGroup>
+
 </Project>

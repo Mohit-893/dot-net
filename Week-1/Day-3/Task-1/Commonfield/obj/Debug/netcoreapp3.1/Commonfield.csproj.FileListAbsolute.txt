@@ -1,0 +1,9 @@
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Commonfield\bin\Debug\netcoreapp3.1\Commonfield.deps.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Commonfield\bin\Debug\netcoreapp3.1\Commonfield.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Commonfield\bin\Debug\netcoreapp3.1\Commonfield.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Commonfield\obj\Debug\netcoreapp3.1\Commonfield.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Commonfield\obj\Debug\netcoreapp3.1\Commonfield.AssemblyInfoInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Commonfield\obj\Debug\netcoreapp3.1\Commonfield.AssemblyInfo.cs
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Commonfield\obj\Debug\netcoreapp3.1\Commonfield.csproj.CoreCompileInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Commonfield\obj\Debug\netcoreapp3.1\Commonfield.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Commonfield\obj\Debug\netcoreapp3.1\Commonfield.pdb

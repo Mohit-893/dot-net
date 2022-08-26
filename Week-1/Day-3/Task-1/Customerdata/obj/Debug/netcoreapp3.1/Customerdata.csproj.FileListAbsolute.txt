@@ -1,0 +1,15 @@
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Customerdata\bin\Debug\netcoreapp3.1\Customerdata.deps.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Customerdata\bin\Debug\netcoreapp3.1\Customerdata.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Customerdata\bin\Debug\netcoreapp3.1\Customerdata.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Customerdata\bin\Debug\netcoreapp3.1\Commonfield.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Customerdata\bin\Debug\netcoreapp3.1\Interface.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Customerdata\bin\Debug\netcoreapp3.1\Commonfield.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Customerdata\bin\Debug\netcoreapp3.1\Interface.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Customerdata\obj\Debug\netcoreapp3.1\Customerdata.csproj.AssemblyReference.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Customerdata\obj\Debug\netcoreapp3.1\Customerdata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Customerdata\obj\Debug\netcoreapp3.1\Customerdata.AssemblyInfoInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Customerdata\obj\Debug\netcoreapp3.1\Customerdata.AssemblyInfo.cs
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Customerdata\obj\Debug\netcoreapp3.1\Customerdata.csproj.CoreCompileInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Customerdata\obj\Debug\netcoreapp3.1\Customerdata.csproj.CopyComplete
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Customerdata\obj\Debug\netcoreapp3.1\Customerdata.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Customerdata\obj\Debug\netcoreapp3.1\Customerdata.pdb

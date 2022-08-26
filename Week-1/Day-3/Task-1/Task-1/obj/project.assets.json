@@ -1,11 +1,104 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Commonfield/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Commonfield.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Commonfield.dll": {}
+        }
+      },
+      "Customerdata/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Commonfield": "1.0.0",
+          "Interface": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Customerdata.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Customerdata.dll": {}
+        }
+      },
+      "Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Interface.dll": {}
+        }
+      },
+      "Orderdata/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Commonfield": "1.0.0",
+          "Interface": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Orderdata.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Orderdata.dll": {}
+        }
+      },
+      "Productdata/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Commonfield": "1.0.0",
+          "Interface": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Productdata.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Productdata.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Commonfield/1.0.0": {
+      "type": "project",
+      "path": "../Commonfield/Commonfield.csproj",
+      "msbuildProject": "../Commonfield/Commonfield.csproj"
+    },
+    "Customerdata/1.0.0": {
+      "type": "project",
+      "path": "../Customerdata/Customerdata.csproj",
+      "msbuildProject": "../Customerdata/Customerdata.csproj"
+    },
+    "Interface/1.0.0": {
+      "type": "project",
+      "path": "../Interface/Interface.csproj",
+      "msbuildProject": "../Interface/Interface.csproj"
+    },
+    "Orderdata/1.0.0": {
+      "type": "project",
+      "path": "../Orderdata/Orderdata.csproj",
+      "msbuildProject": "../Orderdata/Orderdata.csproj"
+    },
+    "Productdata/1.0.0": {
+      "type": "project",
+      "path": "../Productdata/Productdata.csproj",
+      "msbuildProject": "../Productdata/Productdata.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Customerdata >= 1.0.0",
+      "Orderdata >= 1.0.0",
+      "Productdata >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\mohit\\.nuget\\packages\\": {}
@@ -33,7 +126,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Customerdata\\Customerdata.csproj": {
+              "projectPath": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Customerdata\\Customerdata.csproj"
+            },
+            "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Orderdata\\Orderdata.csproj": {
+              "projectPath": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Orderdata\\Orderdata.csproj"
+            },
+            "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Productdata\\Productdata.csproj": {
+              "projectPath": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Productdata\\Productdata.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

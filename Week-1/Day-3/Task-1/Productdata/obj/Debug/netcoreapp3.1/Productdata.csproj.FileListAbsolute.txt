@@ -1,0 +1,15 @@
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Productdata\bin\Debug\netcoreapp3.1\Productdata.deps.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Productdata\bin\Debug\netcoreapp3.1\Productdata.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Productdata\bin\Debug\netcoreapp3.1\Productdata.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Productdata\obj\Debug\netcoreapp3.1\Productdata.csproj.AssemblyReference.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Productdata\obj\Debug\netcoreapp3.1\Productdata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Productdata\obj\Debug\netcoreapp3.1\Productdata.AssemblyInfoInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Productdata\obj\Debug\netcoreapp3.1\Productdata.AssemblyInfo.cs
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Productdata\obj\Debug\netcoreapp3.1\Productdata.csproj.CoreCompileInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Productdata\obj\Debug\netcoreapp3.1\Productdata.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Productdata\obj\Debug\netcoreapp3.1\Productdata.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Productdata\bin\Debug\netcoreapp3.1\Commonfield.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Productdata\bin\Debug\netcoreapp3.1\Interface.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Productdata\bin\Debug\netcoreapp3.1\Commonfield.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Productdata\bin\Debug\netcoreapp3.1\Interface.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-1\Day-3\Task-1\Productdata\obj\Debug\netcoreapp3.1\Productdata.csproj.CopyComplete

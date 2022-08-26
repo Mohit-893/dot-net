@@ -1,0 +1,177 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Productdata\\Productdata.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Commonfield\\Commonfield.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Commonfield\\Commonfield.csproj",
+        "projectName": "Commonfield",
+        "projectPath": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Commonfield\\Commonfield.csproj",
+        "packagesPath": "C:\\Users\\mohit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Commonfield\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Interface\\Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Interface\\Interface.csproj",
+        "projectName": "Interface",
+        "projectPath": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Interface\\Interface.csproj",
+        "packagesPath": "C:\\Users\\mohit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Productdata\\Productdata.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Productdata\\Productdata.csproj",
+        "projectName": "Productdata",
+        "projectPath": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Productdata\\Productdata.csproj",
+        "packagesPath": "C:\\Users\\mohit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Productdata\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Commonfield\\Commonfield.csproj": {
+                "projectPath": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Commonfield\\Commonfield.csproj"
+              },
+              "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Interface\\Interface.csproj": {
+                "projectPath": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-1\\Day-3\\Task-1\\Interface\\Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
