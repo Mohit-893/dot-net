@@ -1,0 +1,10 @@
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\Commondata\bin\Debug\netcoreapp3.1\Commondata.deps.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\Commondata\bin\Debug\netcoreapp3.1\Commondata.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\Commondata\bin\Debug\netcoreapp3.1\Commondata.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\Commondata\obj\Debug\netcoreapp3.1\Commondata.csproj.AssemblyReference.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\Commondata\obj\Debug\netcoreapp3.1\Commondata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\Commondata\obj\Debug\netcoreapp3.1\Commondata.AssemblyInfoInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\Commondata\obj\Debug\netcoreapp3.1\Commondata.AssemblyInfo.cs
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\Commondata\obj\Debug\netcoreapp3.1\Commondata.csproj.CoreCompileInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\Commondata\obj\Debug\netcoreapp3.1\Commondata.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\Commondata\obj\Debug\netcoreapp3.1\Commondata.pdb

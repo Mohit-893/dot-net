@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BookingRecord/1.0.0": {
+        "dependencies": {
+          "Commondata": "1.0.0",
+          "Interface": "1.0.0"
+        },
+        "runtime": {
+          "BookingRecord.dll": {}
+        }
+      },
+      "Commondata/1.0.0": {
+        "runtime": {
+          "Commondata.dll": {}
+        }
+      },
+      "Interface/1.0.0": {
+        "runtime": {
+          "Interface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BookingRecord/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Commondata/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

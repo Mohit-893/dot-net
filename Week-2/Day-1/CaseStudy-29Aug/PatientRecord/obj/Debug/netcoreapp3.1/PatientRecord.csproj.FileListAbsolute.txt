@@ -1,0 +1,15 @@
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\PatientRecord\bin\Debug\netcoreapp3.1\PatientRecord.deps.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\PatientRecord\bin\Debug\netcoreapp3.1\PatientRecord.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\PatientRecord\bin\Debug\netcoreapp3.1\PatientRecord.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\PatientRecord\bin\Debug\netcoreapp3.1\Commondata.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\PatientRecord\bin\Debug\netcoreapp3.1\Interface.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\PatientRecord\bin\Debug\netcoreapp3.1\Commondata.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\PatientRecord\bin\Debug\netcoreapp3.1\Interface.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\PatientRecord\obj\Debug\netcoreapp3.1\PatientRecord.csproj.AssemblyReference.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\PatientRecord\obj\Debug\netcoreapp3.1\PatientRecord.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\PatientRecord\obj\Debug\netcoreapp3.1\PatientRecord.AssemblyInfoInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\PatientRecord\obj\Debug\netcoreapp3.1\PatientRecord.AssemblyInfo.cs
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\PatientRecord\obj\Debug\netcoreapp3.1\PatientRecord.csproj.CoreCompileInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\PatientRecord\obj\Debug\netcoreapp3.1\PatientRecord.csproj.CopyComplete
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\PatientRecord\obj\Debug\netcoreapp3.1\PatientRecord.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\PatientRecord\obj\Debug\netcoreapp3.1\PatientRecord.pdb

@@ -1,0 +1,15 @@
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\BookingRecord\bin\Debug\netcoreapp3.1\BookingRecord.deps.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\BookingRecord\bin\Debug\netcoreapp3.1\BookingRecord.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\BookingRecord\bin\Debug\netcoreapp3.1\BookingRecord.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\BookingRecord\bin\Debug\netcoreapp3.1\Commondata.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\BookingRecord\bin\Debug\netcoreapp3.1\Interface.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\BookingRecord\bin\Debug\netcoreapp3.1\Commondata.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\BookingRecord\bin\Debug\netcoreapp3.1\Interface.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\BookingRecord\obj\Debug\netcoreapp3.1\BookingRecord.csproj.AssemblyReference.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\BookingRecord\obj\Debug\netcoreapp3.1\BookingRecord.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\BookingRecord\obj\Debug\netcoreapp3.1\BookingRecord.AssemblyInfoInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\BookingRecord\obj\Debug\netcoreapp3.1\BookingRecord.AssemblyInfo.cs
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\BookingRecord\obj\Debug\netcoreapp3.1\BookingRecord.csproj.CoreCompileInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\BookingRecord\obj\Debug\netcoreapp3.1\BookingRecord.csproj.CopyComplete
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\BookingRecord\obj\Debug\netcoreapp3.1\BookingRecord.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-2\Day-1\CaseStudy-29Aug\BookingRecord\obj\Debug\netcoreapp3.1\BookingRecord.pdb
