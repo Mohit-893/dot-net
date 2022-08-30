@@ -1,0 +1,10 @@
+C:\Users\mohit\source\repos\Task-2(Banking App)\Interface\bin\Debug\netcoreapp3.1\Interface.deps.json
+C:\Users\mohit\source\repos\Task-2(Banking App)\Interface\bin\Debug\netcoreapp3.1\Interface.dll
+C:\Users\mohit\source\repos\Task-2(Banking App)\Interface\bin\Debug\netcoreapp3.1\Interface.pdb
+C:\Users\mohit\source\repos\Task-2(Banking App)\Interface\obj\Debug\netcoreapp3.1\Interface.csproj.AssemblyReference.cache
+C:\Users\mohit\source\repos\Task-2(Banking App)\Interface\obj\Debug\netcoreapp3.1\Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\source\repos\Task-2(Banking App)\Interface\obj\Debug\netcoreapp3.1\Interface.AssemblyInfoInputs.cache
+C:\Users\mohit\source\repos\Task-2(Banking App)\Interface\obj\Debug\netcoreapp3.1\Interface.AssemblyInfo.cs
+C:\Users\mohit\source\repos\Task-2(Banking App)\Interface\obj\Debug\netcoreapp3.1\Interface.csproj.CoreCompileInputs.cache
+C:\Users\mohit\source\repos\Task-2(Banking App)\Interface\obj\Debug\netcoreapp3.1\Interface.dll
+C:\Users\mohit\source\repos\Task-2(Banking App)\Interface\obj\Debug\netcoreapp3.1\Interface.pdb

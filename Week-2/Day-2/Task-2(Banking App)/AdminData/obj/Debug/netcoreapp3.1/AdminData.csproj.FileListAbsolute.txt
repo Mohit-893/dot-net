@@ -1,0 +1,9 @@
+C:\Users\mohit\source\repos\Task-2(Banking App)\AdminData\bin\Debug\netcoreapp3.1\AdminData.deps.json
+C:\Users\mohit\source\repos\Task-2(Banking App)\AdminData\bin\Debug\netcoreapp3.1\AdminData.dll
+C:\Users\mohit\source\repos\Task-2(Banking App)\AdminData\bin\Debug\netcoreapp3.1\AdminData.pdb
+C:\Users\mohit\source\repos\Task-2(Banking App)\AdminData\obj\Debug\netcoreapp3.1\AdminData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\source\repos\Task-2(Banking App)\AdminData\obj\Debug\netcoreapp3.1\AdminData.AssemblyInfoInputs.cache
+C:\Users\mohit\source\repos\Task-2(Banking App)\AdminData\obj\Debug\netcoreapp3.1\AdminData.AssemblyInfo.cs
+C:\Users\mohit\source\repos\Task-2(Banking App)\AdminData\obj\Debug\netcoreapp3.1\AdminData.csproj.CoreCompileInputs.cache
+C:\Users\mohit\source\repos\Task-2(Banking App)\AdminData\obj\Debug\netcoreapp3.1\AdminData.dll
+C:\Users\mohit\source\repos\Task-2(Banking App)\AdminData\obj\Debug\netcoreapp3.1\AdminData.pdb

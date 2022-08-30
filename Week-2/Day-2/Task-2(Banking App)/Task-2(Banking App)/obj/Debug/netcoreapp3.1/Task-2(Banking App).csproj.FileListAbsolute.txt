@@ -1,0 +1,27 @@
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\obj\Debug\netcoreapp3.1\Task-2(Banking App).csproj.AssemblyReference.cache
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\obj\Debug\netcoreapp3.1\Task-2(Banking App).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\obj\Debug\netcoreapp3.1\Task-2(Banking App).AssemblyInfoInputs.cache
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\obj\Debug\netcoreapp3.1\Task-2(Banking App).AssemblyInfo.cs
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\obj\Debug\netcoreapp3.1\Task-2(Banking App).csproj.CoreCompileInputs.cache
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\bin\Debug\netcoreapp3.1\Task-2(Banking App).exe
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\bin\Debug\netcoreapp3.1\Task-2(Banking App).deps.json
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\bin\Debug\netcoreapp3.1\Task-2(Banking App).runtimeconfig.json
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\bin\Debug\netcoreapp3.1\Task-2(Banking App).runtimeconfig.dev.json
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\bin\Debug\netcoreapp3.1\Task-2(Banking App).dll
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\bin\Debug\netcoreapp3.1\Task-2(Banking App).pdb
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\bin\Debug\netcoreapp3.1\AdminData.dll
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\bin\Debug\netcoreapp3.1\AdminData.pdb
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\obj\Debug\netcoreapp3.1\Task-2(Banking App).csproj.CopyComplete
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\obj\Debug\netcoreapp3.1\Task-2(Banking App).dll
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\obj\Debug\netcoreapp3.1\Task-2(Banking App).pdb
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\obj\Debug\netcoreapp3.1\Task-2(Banking App).genruntimeconfig.cache
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\bin\Debug\netcoreapp3.1\CustomerData.dll
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\bin\Debug\netcoreapp3.1\Interface.dll
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\bin\Debug\netcoreapp3.1\CustomerData.pdb
+C:\Users\mohit\source\repos\Task-2(Banking App)\Task-2(Banking App)\bin\Debug\netcoreapp3.1\Interface.pdb

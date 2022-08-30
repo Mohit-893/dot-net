@@ -1,0 +1,13 @@
+C:\Users\mohit\source\repos\Task-2(Banking App)\CustomerData\bin\Debug\netcoreapp3.1\CustomerData.deps.json
+C:\Users\mohit\source\repos\Task-2(Banking App)\CustomerData\bin\Debug\netcoreapp3.1\CustomerData.dll
+C:\Users\mohit\source\repos\Task-2(Banking App)\CustomerData\bin\Debug\netcoreapp3.1\CustomerData.pdb
+C:\Users\mohit\source\repos\Task-2(Banking App)\CustomerData\bin\Debug\netcoreapp3.1\Interface.dll
+C:\Users\mohit\source\repos\Task-2(Banking App)\CustomerData\bin\Debug\netcoreapp3.1\Interface.pdb
+C:\Users\mohit\source\repos\Task-2(Banking App)\CustomerData\obj\Debug\netcoreapp3.1\CustomerData.csproj.AssemblyReference.cache
+C:\Users\mohit\source\repos\Task-2(Banking App)\CustomerData\obj\Debug\netcoreapp3.1\CustomerData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\source\repos\Task-2(Banking App)\CustomerData\obj\Debug\netcoreapp3.1\CustomerData.AssemblyInfoInputs.cache
+C:\Users\mohit\source\repos\Task-2(Banking App)\CustomerData\obj\Debug\netcoreapp3.1\CustomerData.AssemblyInfo.cs
+C:\Users\mohit\source\repos\Task-2(Banking App)\CustomerData\obj\Debug\netcoreapp3.1\CustomerData.csproj.CoreCompileInputs.cache
+C:\Users\mohit\source\repos\Task-2(Banking App)\CustomerData\obj\Debug\netcoreapp3.1\CustomerData.csproj.CopyComplete
+C:\Users\mohit\source\repos\Task-2(Banking App)\CustomerData\obj\Debug\netcoreapp3.1\CustomerData.dll
+C:\Users\mohit\source\repos\Task-2(Banking App)\CustomerData\obj\Debug\netcoreapp3.1\CustomerData.pdb
