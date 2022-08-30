@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mohit\\source\\repos\\Task-2(Banking App)\\AdminData\\AdminData.csproj",
+      "projectUniqueName": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-2\\Day-2\\Task-2(Banking App)\\AdminData\\AdminData.csproj",
       "projectName": "AdminData",
-      "projectPath": "C:\\Users\\mohit\\source\\repos\\Task-2(Banking App)\\AdminData\\AdminData.csproj",
+      "projectPath": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-2\\Day-2\\Task-2(Banking App)\\AdminData\\AdminData.csproj",
       "packagesPath": "C:\\Users\\mohit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mohit\\source\\repos\\Task-2(Banking App)\\AdminData\\obj\\",
+      "outputPath": "C:\\Users\\mohit\\OneDrive - Bhavna Software India Pvt.Ltd\\Desktop\\.net_traning\\dot net\\Week-2\\Day-2\\Task-2(Banking App)\\AdminData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
