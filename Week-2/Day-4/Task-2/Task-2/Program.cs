@@ -11,7 +11,7 @@ namespace Task_2
 
         public static bool Isavail(int n)
         {   
-            if (loc > 0) return true;
+            if (n > 0) return true;
             return false;
         }
 
@@ -21,6 +21,11 @@ namespace Task_2
             if (id == "root" && pass == "1234")
                 return true;
             return false;
+        }
+
+        public static void show(int id, string name, double price, string category)
+        {
+            Console.WriteLine(id + " " + name + " " + price + " " + category);
         }
 
 
@@ -110,11 +115,12 @@ namespace Task_2
                                 if (id.ToString() == ds.Tables[0].Rows[i][0].ToString())
                                 {
                                     loc = i;
+                                   // Console.Write(loc);
                                 }
                             }
 
                             Predicate<int> obj1 = new Predicate<int>(Isavail);
-                            bool avail = obj1.Invoke(loc);
+                            bool avail = obj1.Invoke(loc+1);
 
                             if (avail)
                             {
@@ -134,7 +140,9 @@ namespace Task_2
                                         p.category = ds1.Tables[0].Rows[i][1].ToString();
                                     }
                                 }
-                                Console.WriteLine(id + " " + p.name + " " + p.price + " " + p.category);
+                                Action<int, string, double, string> print = new Action<int, string, double, string>(show);
+                                print.Invoke(id,p.name,p.price,p.category);
+                                
                             }
                             else
                             {
@@ -143,7 +151,7 @@ namespace Task_2
 
                             break;
                         default:
-
+                            Console.WriteLine("Enter the correct choice !!!");
                             break;
                     }
                 }
@@ -155,5 +163,3 @@ namespace Task_2
         }
     }
 }
-//Predicate<string> obj3 = new Predicate<string>(checklength);
-//bool status = obj3.Invoke("Mohit");
