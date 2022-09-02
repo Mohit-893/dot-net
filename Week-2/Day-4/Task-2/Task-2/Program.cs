@@ -11,7 +11,7 @@ namespace Task_2
 
         public static bool Isavail(int n)
         {   
-            if (n > 0) return true;
+            if (n != -1) return true;
             return false;
         }
 
@@ -115,12 +115,17 @@ namespace Task_2
                                 if (id.ToString() == ds.Tables[0].Rows[i][0].ToString())
                                 {
                                     loc = i;
+                                    break;
                                    // Console.Write(loc);
+                                }
+                                else
+                                {
+                                    loc = -1;
                                 }
                             }
 
                             Predicate<int> obj1 = new Predicate<int>(Isavail);
-                            bool avail = obj1.Invoke(loc+1);
+                            bool avail = obj1.Invoke(loc);
 
                             if (avail)
                             {
@@ -140,6 +145,7 @@ namespace Task_2
                                         p.category = ds1.Tables[0].Rows[i][1].ToString();
                                     }
                                 }
+
                                 Action<int, string, double, string> print = new Action<int, string, double, string>(show);
                                 print.Invoke(id,p.name,p.price,p.category);
                                 
