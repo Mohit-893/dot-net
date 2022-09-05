@@ -15,7 +15,7 @@ namespace Franchisedata
 
         public void showmenu()
         {
-            Console.WriteLine("Press 1 for Add Employee\n      2 for Order\n      3 for Salary Distribution\n      4 for Sales Record");
+            Console.WriteLine("Press 1 for Add Employee\n      2 for Order\n      3 for Salary Distribution\n      4 for Sales Record\n      0 for exit");
         }
     }
 }

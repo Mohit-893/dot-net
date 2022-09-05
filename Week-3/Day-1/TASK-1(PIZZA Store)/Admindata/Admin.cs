@@ -12,7 +12,7 @@ namespace Admindata
 
         public void showmenu()
         {
-            Console.WriteLine("Press 1 for Add Franchise\n      2 for Franchise record\n      3 for sales record");
+            Console.WriteLine("Press 1 for Add Franchise\n      2 for Franchise record\n      3 for sales record\n      0 for exit");
         }
     }
 }
