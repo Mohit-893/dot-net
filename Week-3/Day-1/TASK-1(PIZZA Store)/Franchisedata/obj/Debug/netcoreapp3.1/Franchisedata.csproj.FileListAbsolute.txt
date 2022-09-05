@@ -1,0 +1,13 @@
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\Franchisedata\bin\Debug\netcoreapp3.1\Franchisedata.deps.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\Franchisedata\bin\Debug\netcoreapp3.1\Franchisedata.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\Franchisedata\bin\Debug\netcoreapp3.1\Franchisedata.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\Franchisedata\obj\Debug\netcoreapp3.1\Franchisedata.csproj.AssemblyReference.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\Franchisedata\obj\Debug\netcoreapp3.1\Franchisedata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\Franchisedata\obj\Debug\netcoreapp3.1\Franchisedata.AssemblyInfoInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\Franchisedata\obj\Debug\netcoreapp3.1\Franchisedata.AssemblyInfo.cs
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\Franchisedata\obj\Debug\netcoreapp3.1\Franchisedata.csproj.CoreCompileInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\Franchisedata\obj\Debug\netcoreapp3.1\Franchisedata.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\Franchisedata\obj\Debug\netcoreapp3.1\Franchisedata.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\Franchisedata\bin\Debug\netcoreapp3.1\Interface.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\Franchisedata\bin\Debug\netcoreapp3.1\Interface.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\Franchisedata\obj\Debug\netcoreapp3.1\Franchisedata.csproj.CopyComplete

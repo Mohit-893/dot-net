@@ -1,0 +1,27 @@
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\bin\Debug\netcoreapp3.1\TASK-1(PIZZA Store).exe
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\bin\Debug\netcoreapp3.1\TASK-1(PIZZA Store).deps.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\bin\Debug\netcoreapp3.1\TASK-1(PIZZA Store).runtimeconfig.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\bin\Debug\netcoreapp3.1\TASK-1(PIZZA Store).runtimeconfig.dev.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\bin\Debug\netcoreapp3.1\TASK-1(PIZZA Store).dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\bin\Debug\netcoreapp3.1\TASK-1(PIZZA Store).pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\obj\Debug\netcoreapp3.1\TASK-1(PIZZA Store).csproj.AssemblyReference.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\obj\Debug\netcoreapp3.1\TASK-1(PIZZA Store).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\obj\Debug\netcoreapp3.1\TASK-1(PIZZA Store).AssemblyInfoInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\obj\Debug\netcoreapp3.1\TASK-1(PIZZA Store).AssemblyInfo.cs
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\obj\Debug\netcoreapp3.1\TASK-1(PIZZA Store).csproj.CoreCompileInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\obj\Debug\netcoreapp3.1\TASK-1(PIZZA Store).dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\obj\Debug\netcoreapp3.1\TASK-1(PIZZA Store).pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\obj\Debug\netcoreapp3.1\TASK-1(PIZZA Store).genruntimeconfig.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\bin\Debug\netcoreapp3.1\Admindata.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\bin\Debug\netcoreapp3.1\Franchisedata.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\bin\Debug\netcoreapp3.1\Interface.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\bin\Debug\netcoreapp3.1\Admindata.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\bin\Debug\netcoreapp3.1\Franchisedata.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\bin\Debug\netcoreapp3.1\Interface.pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-1\TASK-1(PIZZA Store)\TASK-1(PIZZA Store)\obj\Debug\netcoreapp3.1\TASK-1(PIZZA Store).csproj.CopyComplete
