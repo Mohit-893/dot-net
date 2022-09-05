@@ -48,8 +48,10 @@ namespace TASK_1_PIZZA_Store_
                         username = Console.ReadLine();
                         Console.Write("Enter Password : ");
                         password = Console.ReadLine();
+
                         Func<string, string, bool> dele1 = new Func<string, string, bool>(checkadmin);
                         bool res1 = dele1.Invoke(username, password);
+
                         if (res1)
                         {
                             int choice = 1;
