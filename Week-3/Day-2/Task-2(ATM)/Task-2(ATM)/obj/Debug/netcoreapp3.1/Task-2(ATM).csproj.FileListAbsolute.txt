@@ -1,0 +1,14 @@
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-2\Task-2(ATM)\Task-2(ATM)\bin\Debug\netcoreapp3.1\Task-2(ATM).exe
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-2\Task-2(ATM)\Task-2(ATM)\bin\Debug\netcoreapp3.1\Task-2(ATM).deps.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-2\Task-2(ATM)\Task-2(ATM)\bin\Debug\netcoreapp3.1\Task-2(ATM).runtimeconfig.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-2\Task-2(ATM)\Task-2(ATM)\bin\Debug\netcoreapp3.1\Task-2(ATM).runtimeconfig.dev.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-2\Task-2(ATM)\Task-2(ATM)\bin\Debug\netcoreapp3.1\Task-2(ATM).dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-2\Task-2(ATM)\Task-2(ATM)\bin\Debug\netcoreapp3.1\Task-2(ATM).pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-2\Task-2(ATM)\Task-2(ATM)\obj\Debug\netcoreapp3.1\Task-2(ATM).csproj.AssemblyReference.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-2\Task-2(ATM)\Task-2(ATM)\obj\Debug\netcoreapp3.1\Task-2(ATM).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-2\Task-2(ATM)\Task-2(ATM)\obj\Debug\netcoreapp3.1\Task-2(ATM).AssemblyInfoInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-2\Task-2(ATM)\Task-2(ATM)\obj\Debug\netcoreapp3.1\Task-2(ATM).AssemblyInfo.cs
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-2\Task-2(ATM)\Task-2(ATM)\obj\Debug\netcoreapp3.1\Task-2(ATM).csproj.CoreCompileInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-2\Task-2(ATM)\Task-2(ATM)\obj\Debug\netcoreapp3.1\Task-2(ATM).dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-2\Task-2(ATM)\Task-2(ATM)\obj\Debug\netcoreapp3.1\Task-2(ATM).pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-3\Day-2\Task-2(ATM)\Task-2(ATM)\obj\Debug\netcoreapp3.1\Task-2(ATM).genruntimeconfig.cache
