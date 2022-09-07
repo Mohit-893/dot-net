@@ -9,18 +9,10 @@ namespace Task_2_ATM_.App
     {
         static void Main(string[] args)
         {
-            AppScreen.Welcome();
-            ATMApp atmApp = new ATMApp();
-
-            atmApp.InitializedData();
-            atmApp.CheckUserCardNumAndPassword();
-            atmApp.Welcome();
-
-            //long cardNumber = Validate.Convert<long>("your card number");
-            //Console.WriteLine($"Your name is {cardNumber}");
-
-            Utility.PressEnterTocontinue();
-
+            
+                ATMApp atmApp = new ATMApp();
+                atmApp.InitializedData();
+                atmApp.Run();
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 using System.Threading;
 
@@ -8,7 +9,13 @@ namespace Task_2_ATM_.UI
     
     public static class Utility
     {
+        private static long tranId;
+        private static CultureInfo culture = new CultureInfo("hi-IN");
 
+        public static long GetTransactionId()
+        {
+            return ++tranId;
+        }
         public static string GetSecretInput(string prompt)
         {
             bool isPrompt = true;
@@ -89,6 +96,11 @@ namespace Task_2_ATM_.UI
         {
             Console.WriteLine("\n\nPress Enter to Continue...\n");
             Console.ReadLine();
+        }
+
+        public static string FormatAmount(decimal amt)
+        {
+            return String.Format(culture, "{0:C2}", amt);
         }
     }
 }
