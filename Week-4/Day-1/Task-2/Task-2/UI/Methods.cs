@@ -45,12 +45,20 @@ namespace Task_2.UI
             mapp.ValidateAdmin(name, pass);
         }
 
-        internal static void GetDesignData()
+        public static void showCarMenu()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("1-Hatchback\n2-Sedan\n3-Mini SUV\n4-SUV");
         }
 
-        internal static void GetEmployeeData()
+        public static void showWelcomeScreen(string name)
+        {
+            Console.Clear();
+            Console.WriteLine("-------------Welcome to CARApp---------------");
+            Console.WriteLine($"Hi {name}, Please select Car from the given menu");
+
+        }
+
+       /* internal static void GetEmployeeData()
         {
             Console.Clear();
             MainApp mapp = new MainApp();
@@ -58,6 +66,7 @@ namespace Task_2.UI
             string pass = Validate.Convert<string>(" Password ");
             mapp.ValidateEmployee(name, pass);
         }
+       */
 
         public static void showEmployeeMenu()
         {

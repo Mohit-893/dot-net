@@ -12,3 +12,10 @@ C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot
 C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-2\Task-2\obj\Debug\netcoreapp3.1\Task-2.dll
 C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-2\Task-2\obj\Debug\netcoreapp3.1\Task-2.pdb
 C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-2\Task-2\obj\Debug\netcoreapp3.1\Task-2.genruntimeconfig.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-2\Task-2\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-2\Task-2\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-2\Task-2\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-2\Task-2\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-2\Task-2\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-2\Task-2\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-2\Task-2\obj\Debug\netcoreapp3.1\Task-2.csproj.CopyComplete

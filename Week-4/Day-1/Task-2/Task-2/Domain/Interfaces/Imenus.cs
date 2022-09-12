@@ -8,6 +8,5 @@ namespace Task_2.Domain.Interfaces
     {
         void AdminData();
         void EmployeeData();
-        void DesignData ();
     }
 }
