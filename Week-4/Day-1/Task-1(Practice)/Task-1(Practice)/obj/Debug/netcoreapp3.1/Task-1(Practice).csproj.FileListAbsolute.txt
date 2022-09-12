@@ -1,0 +1,14 @@
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-1(Practice)\Task-1(Practice)\bin\Debug\netcoreapp3.1\Task-1(Practice).exe
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-1(Practice)\Task-1(Practice)\bin\Debug\netcoreapp3.1\Task-1(Practice).deps.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-1(Practice)\Task-1(Practice)\bin\Debug\netcoreapp3.1\Task-1(Practice).runtimeconfig.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-1(Practice)\Task-1(Practice)\bin\Debug\netcoreapp3.1\Task-1(Practice).runtimeconfig.dev.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-1(Practice)\Task-1(Practice)\bin\Debug\netcoreapp3.1\Task-1(Practice).dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-1(Practice)\Task-1(Practice)\bin\Debug\netcoreapp3.1\Task-1(Practice).pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-1(Practice)\Task-1(Practice)\obj\Debug\netcoreapp3.1\Task-1(Practice).csproj.AssemblyReference.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-1(Practice)\Task-1(Practice)\obj\Debug\netcoreapp3.1\Task-1(Practice).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-1(Practice)\Task-1(Practice)\obj\Debug\netcoreapp3.1\Task-1(Practice).AssemblyInfoInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-1(Practice)\Task-1(Practice)\obj\Debug\netcoreapp3.1\Task-1(Practice).AssemblyInfo.cs
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-1(Practice)\Task-1(Practice)\obj\Debug\netcoreapp3.1\Task-1(Practice).csproj.CoreCompileInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-1(Practice)\Task-1(Practice)\obj\Debug\netcoreapp3.1\Task-1(Practice).dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-1(Practice)\Task-1(Practice)\obj\Debug\netcoreapp3.1\Task-1(Practice).pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-4\Day-1\Task-1(Practice)\Task-1(Practice)\obj\Debug\netcoreapp3.1\Task-1(Practice).genruntimeconfig.cache
