@@ -15,8 +15,10 @@ namespace Task_2.App
 
         private admin curradmin;
         private Employee curremployee;
-        private int todaySale;
-        private int totalsale;
+        private int todaySaleQuantity;
+        private double todaySaleAmount;
+        private int thisMonthSaleQuantity;
+        private double thisMonthSaleAmount;
 
         SqlConnection con = new SqlConnection("server=localhost;database=CarApp;integrated security=true;");
 
@@ -56,10 +58,10 @@ namespace Task_2.App
             string name = Validate.Convert<string>(" your Name");
             Methods.showWelcomeScreen(name);
             Methods.showCarMenu();
-            double price = mapp.CustomerData();
+            (double price,string Carname) = mapp.CustomerData();
             Console.Clear();
             Methods.PrintMessage($"Total amount is : {price}");
-            SqlCommand cmd1 = new SqlCommand("insert into Sales values('" + name + "'," + price + ",CAST(GETDATE() as date))", mapp.con);
+            SqlCommand cmd1 = new SqlCommand("insert into Sales values('" + name + "','" + Carname + "',"+price+",CAST(GETDATE() as date))", mapp.con);
             mapp.con.Open();
             cmd1.ExecuteNonQuery();
             mapp.con.Close();
@@ -102,7 +104,20 @@ namespace Task_2.App
 
         private void TotalSales()
         {
-            Methods.PrintMessage("Total sale quantity is quantity\nThis month sales was xx quantity");
+            SqlDataAdapter da1 = new SqlDataAdapter("select sum(price) as totalsales,count(Carname) as quantity from Sales where OrderDate = CAST(GETDATE() as date)", con);
+            DataSet ds1 = new DataSet();
+            da1.Fill(ds1);
+            todaySaleQuantity = int.Parse(ds1.Tables[0].Rows[0][1].ToString());
+            todaySaleAmount = double.Parse(ds1.Tables[0].Rows[0][0].ToString());
+            //int x = ds1.Tables[0].Rows.Count;
+            //Console.WriteLine(todaySale);
+            SqlDataAdapter da2 = new SqlDataAdapter("select sum(price) as totalsales,count(Carname) as quantity from Sales where OrderDate > DATEFROMPARTS(year(Orderdate),month(Orderdate),'01')", con);
+            DataSet ds2 = new DataSet();
+            da2.Fill(ds2);
+            thisMonthSaleQuantity = int.Parse(ds2.Tables[0].Rows[0][1].ToString());
+            thisMonthSaleAmount = double.Parse(ds2.Tables[0].Rows[0][0].ToString());
+            Methods.PrintMessage($"Today's sale quantity is {todaySaleQuantity}.Today's Sale amount is {todaySaleAmount}");
+            Methods.PrintMessage($"This Month sale quantity is {thisMonthSaleQuantity}.This Month Sale amount is {thisMonthSaleAmount}");
         }
 
         private void TotalProfit()
@@ -183,24 +198,24 @@ namespace Task_2.App
                 Methods.PrintMessage("No Employee Found!!!", false);
         }
 
-        public double CustomerData()
+        public (double,string) CustomerData()
         {
             switch(Validate.Convert<int>("an option"))
             {
                 case (int)CarMenu.Hatchback:
-                    return 745000;
+                    return (745000,"Hatchback");
                     break;
                 case (int)CarMenu.Sedan:
-                    return 990000;
+                    return (990000,"Sedan");
                     break;
                 case (int)CarMenu.MiniSUV:
-                    return 1235000;
+                    return (1235000,"MiniSUV");
                     break;
                 case (int)CarMenu.SUV:
-                    return 1600000;
+                    return (1600000,"SUV");
                     break;
                 default:
-                    return 0;
+                    return (0," ");
                     break;
             }
         }
