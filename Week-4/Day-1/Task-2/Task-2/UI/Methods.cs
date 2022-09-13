@@ -68,9 +68,10 @@ namespace Task_2.UI
         }
        */
 
-        public static void showEmployeeMenu()
+        public static void showEmployeeMenu(string name)
         {
             Console.Clear();
+            Console.WriteLine($"Hi {name}, Welcome to CarApp");
             Console.WriteLine("1-Login\n2-Salary\n3-Logout");
         }
         public static void showAdminMenu()
@@ -78,5 +79,7 @@ namespace Task_2.UI
             Console.Clear();
             Console.WriteLine("1-Add Employee\n2-Total profit\n3-Total Sales\n4-Balance sheet\n5-Update Product Quantity");
         }
+
+        
     }
 }

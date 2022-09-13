@@ -22,5 +22,9 @@ select * from EmployeeLogin
 create table EmployeeLogout(id int identity,Emp_ID int,Emp_Name nvarchar(30),LogoutTime datetime)
 select * from EmployeeLogout
 
-
+select EmployeeLogin.Emp_ID,EmployeeLogin.Emp_Name,LoginTime,LogoutTime,CAST((LogoutTime-LoginTime) as time) as workinghours from EmployeeLogin inner join  EmployeeLogout on EmployeeLogin.id = EmployeeLogout.id
+select EmployeeLogin.Emp_ID,EmployeeLogin.Emp_Name,LoginTime,LogoutTime,convert(nvarchar(5),(LogoutTime-LoginTime),108) as workinghours from EmployeeLogin inner join  EmployeeLogout on EmployeeLogin.Emp_ID = EmployeeLogout.Emp_ID where CAST(EmployeeLogin.LoginTime as date) = CAST(EmployeeLogout.LogoutTime as date)
+create view EmployeeWorkingHours as select EmployeeLogin.Emp_ID,EmployeeLogin.Emp_Name,LoginTime,LogoutTime,convert(nvarchar(5),(LogoutTime-LoginTime),108) as workinghours from EmployeeLogin inner join  EmployeeLogout on EmployeeLogin.Emp_ID = EmployeeLogout.Emp_ID where CAST(EmployeeLogin.LoginTime as date) = CAST(EmployeeLogout.LogoutTime as date) and EmployeeLogin.LoginTime < EmployeeLogout.LogoutTime
+select * from EmployeeWorkingHours
+drop view EmployeeWorkingHours
 

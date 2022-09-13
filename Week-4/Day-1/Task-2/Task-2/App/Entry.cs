@@ -10,6 +10,7 @@ namespace Task_2
             //MainApp obj = new MainApp();
             MainApp.firstMethod();
             
+            
         }
     }
 }

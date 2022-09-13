@@ -7,6 +7,6 @@ namespace Task_2.Domain.Interfaces
     public interface Imenus
     {
         void AdminData();
-        void EmployeeData();
+        void EmployeeData(int id,string name);
     }
 }

@@ -10,7 +10,7 @@ using Task_2.UI;
 
 namespace Task_2.App
 {
-    public class MainApp : Imenus,Ivalidate
+    public class MainApp : Imenus
     {
 
         private admin curradmin;
@@ -40,8 +40,19 @@ namespace Task_2.App
                     break;
                 case (int)MainMenu.Employee:
                     //Methods.GetEmployeeData();
-                    Methods.showEmployeeMenu();
-                    mapp.EmployeeData();
+                    (bool isvalid,int id,string name) = mapp.ValidateEmployee();
+                    if(isvalid)
+                    {
+                        //Console.WriteLine(mapp.curremployee.e_department);
+                        Methods.showEmployeeMenu(name);
+                        mapp.EmployeeData(id,name);
+                    }
+                    else
+                    {
+                        Methods.PrintMessage("No Employee Found!!!", false);
+                    }
+                    
+                    
                     break;
                 case (int)MainMenu.Customer:
                     GetCustomerData();
@@ -50,6 +61,31 @@ namespace Task_2.App
                     Methods.PrintMessage("Invalid Option...", false);
                     break;
             }
+        }
+
+        private (bool,int,string) ValidateEmployee()
+        {
+            int id = Validate.Convert<int>("Employee id");
+            string name = Validate.Convert<string>("Employee Name");
+            SqlDataAdapter da1 = new SqlDataAdapter("select * from EmployeeData where id=" + id + "and name='" + name + "'", con);
+            DataSet ds1 = new DataSet();
+            da1.Fill(ds1);
+            int x = ds1.Tables[0].Rows.Count;
+            if (x > 0)
+            {
+                Console.WriteLine(ds1.Tables[0].Rows.Count);
+                /*
+                foreach (DataRow dataRow in ds1.Tables[0].Rows)
+                {
+                    foreach (var item in dataRow.ItemArray)
+                    {
+                        Console.WriteLine(item);
+                    }
+                }
+                */
+                return (true,id,name);
+            }
+            return (false,0," ");
         }
 
         private static void GetCustomerData()
@@ -104,25 +140,32 @@ namespace Task_2.App
 
         private void TotalSales()
         {
+            calculateSales();
+            //int x = ds1.Tables[0].Rows.Count;
+            //Console.WriteLine(todaySale)
+            Methods.PrintMessage($"Today's sale quantity is {todaySaleQuantity}.Today's Sale amount is {todaySaleAmount}");
+            Methods.PrintMessage($"This Month sale quantity is {thisMonthSaleQuantity}.This Month Sale amount is {thisMonthSaleAmount}");
+        }
+
+        private void calculateSales()
+        {
             SqlDataAdapter da1 = new SqlDataAdapter("select sum(price) as totalsales,count(Carname) as quantity from Sales where OrderDate = CAST(GETDATE() as date)", con);
             DataSet ds1 = new DataSet();
             da1.Fill(ds1);
             todaySaleQuantity = int.Parse(ds1.Tables[0].Rows[0][1].ToString());
             todaySaleAmount = double.Parse(ds1.Tables[0].Rows[0][0].ToString());
-            //int x = ds1.Tables[0].Rows.Count;
-            //Console.WriteLine(todaySale);
+
             SqlDataAdapter da2 = new SqlDataAdapter("select sum(price) as totalsales,count(Carname) as quantity from Sales where OrderDate > DATEFROMPARTS(year(Orderdate),month(Orderdate),'01')", con);
             DataSet ds2 = new DataSet();
             da2.Fill(ds2);
             thisMonthSaleQuantity = int.Parse(ds2.Tables[0].Rows[0][1].ToString());
             thisMonthSaleAmount = double.Parse(ds2.Tables[0].Rows[0][0].ToString());
-            Methods.PrintMessage($"Today's sale quantity is {todaySaleQuantity}.Today's Sale amount is {todaySaleAmount}");
-            Methods.PrintMessage($"This Month sale quantity is {thisMonthSaleQuantity}.This Month Sale amount is {thisMonthSaleAmount}");
         }
 
         private void TotalProfit()
         {
-            double todayProfit = 0, totalProfit = 0;
+            calculateSales();
+            double todayProfit = (todaySaleAmount*0.35)-(todaySaleQuantity*4520), totalProfit = (thisMonthSaleAmount*0.35)-(thisMonthSaleQuantity*113000);
             Methods.PrintMessage($"Profit for today is : {todayProfit}\nProfit for the Month is : {totalProfit}");
         }
 
@@ -139,18 +182,18 @@ namespace Task_2.App
             Methods.PrintMessage("Employee added successfully");
         }
 
-        public void EmployeeData()
+        public void EmployeeData(int id, string name)
         {
             switch (Validate.Convert<int>("an option"))
             {
                 case (int)EmployeeMenu.Login:
-                    EmployeeLogin();
+                    EmployeeLogin(id,name);
                     break;
                 case (int)EmployeeMenu.Salary:
                     Methods.PrintMessage($"Salary of name for this month is salary");
                     break;
                 case (int)EmployeeMenu.Logout:
-                    EmployeeLogout();
+                    EmployeeLogout(id,name);
                     break;
                 default:
                     Methods.PrintMessage("Invalid Option...", false);
@@ -158,44 +201,23 @@ namespace Task_2.App
             }
         }
 
-        private void EmployeeLogout()
+        private void EmployeeLogout(int id,string name)
         {
-            int id = Validate.Convert<int>("Employee id");
-            string name = Validate.Convert<string>("Employee Name");
-            SqlDataAdapter da1 = new SqlDataAdapter("select * from EmployeeData where id=" + id + "and name='" + name + "'", con);
-            DataSet ds1 = new DataSet();
-            da1.Fill(ds1);
-            int x = ds1.Tables[0].Rows.Count;
-            if (x > 0)
-            {
                 SqlCommand cmd1 = new SqlCommand("insert into EmployeeLogout values(" + id + ",'" + name + "',GETDATE())", con);
                 con.Open();
                 cmd1.ExecuteNonQuery();
                 con.Close();
-                Methods.PrintMessage("Employee Logout Successful...");
-            }
-            else
-                Methods.PrintMessage("No Employee Found!!!", false);
+            Methods.PrintMessage("Employee Logout Successful...");
         }
 
-        private void EmployeeLogin()
+        private void EmployeeLogin(int id,string name)
         {
-            int id = Validate.Convert<int>("Employee id");
-            string name = Validate.Convert<string>("Employee Name");
-            SqlDataAdapter da1 = new SqlDataAdapter("select * from EmployeeData where id="+id+ "and name='"+name+"'", con);
-            DataSet ds1 = new DataSet();
-            da1.Fill(ds1);
-            int x = ds1.Tables[0].Rows.Count;
-            if (x > 0)
-            {
                 SqlCommand cmd1 = new SqlCommand("insert into EmployeeLogin values(" + id + ",'" + name + "',GETDATE())", con);
                 con.Open();
                 cmd1.ExecuteNonQuery();
                 con.Close();
                 Methods.PrintMessage("Employee Login Successful...");
-            }
-            else
-                Methods.PrintMessage("No Employee Found!!!", false);
+               
         }
 
         public (double,string) CustomerData()
@@ -220,13 +242,6 @@ namespace Task_2.App
             }
         }
 
-        public void ValidateEmployee(string name, string pass)
-        {
-            if (name == "emp" && pass == "1234")
-                Methods.showEmployeeMenu();
-            else
-                Methods.PrintMessage("Invalid Employee...", false);
-        }
 
         public void ValidateAdmin(string name,string pass)
         {
