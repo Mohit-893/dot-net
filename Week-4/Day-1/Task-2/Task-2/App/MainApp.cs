@@ -12,9 +12,6 @@ namespace Task_2.App
 {
     public class MainApp : Imenus
     {
-
-        private admin curradmin;
-        private Employee curremployee;
         private int todaySaleQuantity;
         private double todaySaleAmount;
         private int thisMonthSaleQuantity;
@@ -39,20 +36,7 @@ namespace Task_2.App
                     mapp.AdminData();
                     break;
                 case (int)MainMenu.Employee:
-                    //Methods.GetEmployeeData();
-                    (bool isvalid,int id,string name) = mapp.ValidateEmployee();
-                    if(isvalid)
-                    {
-                        //Console.WriteLine(mapp.curremployee.e_department);
-                        Methods.showEmployeeMenu(name);
-                        mapp.EmployeeData(id,name);
-                    }
-                    else
-                    {
-                        Methods.PrintMessage("No Employee Found!!!", false);
-                    }
-                    
-                    
+                    Employee();
                     break;
                 case (int)MainMenu.Customer:
                     GetCustomerData();
@@ -61,6 +45,25 @@ namespace Task_2.App
                     Methods.PrintMessage("Invalid Option...", false);
                     break;
             }
+        }
+
+        private static void Employee()
+        {
+            var mapp = new MainApp();
+            //Methods.GetEmployeeData();
+            (bool isvalid, int id, string name) = mapp.ValidateEmployee();
+            if (isvalid)
+            {
+                //Console.WriteLine(mapp.curremployee.e_department);
+                Methods.showEmployeeMenu(name);
+                mapp.EmployeeData(id, name);
+            }
+            else
+            {
+                Methods.PrintMessage("No Employee Found!!!", false);
+            }
+
+
         }
 
         private (bool,int,string) ValidateEmployee()
@@ -95,6 +98,8 @@ namespace Task_2.App
             Methods.showWelcomeScreen(name);
             Methods.showCarMenu();
             (double price,string Carname) = mapp.CustomerData();
+            Console.Write("Please wait your Product is Under Process.");
+            Methods.Animation();
             Console.Clear();
             Methods.PrintMessage($"Total amount is : {price}");
             SqlCommand cmd1 = new SqlCommand("insert into Sales values('" + name + "','" + Carname + "',"+price+",CAST(GETDATE() as date))", mapp.con);
@@ -153,13 +158,21 @@ namespace Task_2.App
             DataSet ds1 = new DataSet();
             da1.Fill(ds1);
             todaySaleQuantity = int.Parse(ds1.Tables[0].Rows[0][1].ToString());
-            todaySaleAmount = double.Parse(ds1.Tables[0].Rows[0][0].ToString());
+            //todaySaleAmount = double.Parse(ds1.Tables[0].Rows[0][0].ToString());
+            if (ds1.Tables[0].Rows[0][0].ToString() == null)
+                todaySaleAmount = 0;
+            else
+                todaySaleAmount = double.Parse(ds1.Tables[0].Rows[0][0].ToString());
 
             SqlDataAdapter da2 = new SqlDataAdapter("select sum(price) as totalsales,count(Carname) as quantity from Sales where OrderDate > DATEFROMPARTS(year(Orderdate),month(Orderdate),'01')", con);
             DataSet ds2 = new DataSet();
             da2.Fill(ds2);
             thisMonthSaleQuantity = int.Parse(ds2.Tables[0].Rows[0][1].ToString());
-            thisMonthSaleAmount = double.Parse(ds2.Tables[0].Rows[0][0].ToString());
+            //ds2.Tables[0].Rows[0][0].ToString() != NULL ? thisMonthSaleAmount = double.Parse(ds2.Tables[0].Rows[0][0].ToString()) : thisMonthSaleAmount=0;
+            if (ds2.Tables[0].Rows[0][0].ToString() == null)
+                thisMonthSaleAmount = 0;
+            else
+                thisMonthSaleAmount = double.Parse(ds2.Tables[0].Rows[0][0].ToString());
         }
 
         private void TotalProfit()

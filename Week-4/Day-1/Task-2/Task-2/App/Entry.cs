@@ -7,10 +7,18 @@ namespace Task_2
     {
         static void Main(string[] args)
         {
-            //MainApp obj = new MainApp();
-            MainApp.firstMethod();
-            
-            
+            try
+            {
+                //MainApp obj = new MainApp();
+                MainApp.firstMethod();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+
+
+
         }
     }
 }

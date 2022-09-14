@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 using Task_2.App;
 using Task_2.Domain.Entities;
 
@@ -80,6 +81,13 @@ namespace Task_2.UI
             Console.WriteLine("1-Add Employee\n2-Total profit\n3-Total Sales\n4-Balance sheet\n5-Update Product Quantity");
         }
 
-        
+        internal static void Animation()
+        {
+            for(int i = 0; i < 10; i++)
+            {
+                Console.Write(".");
+                Thread.Sleep(1000);
+            }
+        }
     }
 }
