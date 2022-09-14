@@ -100,12 +100,54 @@ namespace Task_2.App
             (double price,string Carname) = mapp.CustomerData();
             Console.Write("Please wait your Product is Under Process.");
             Methods.Animation();
-            Console.Clear();
-            Methods.PrintMessage($"Total amount is : {price}");
-            SqlCommand cmd1 = new SqlCommand("insert into Sales values('" + name + "','" + Carname + "',"+price+",CAST(GETDATE() as date))", mapp.con);
-            mapp.con.Open();
-            cmd1.ExecuteNonQuery();
-            mapp.con.Close();
+
+            Predicate<string> obj3 = new Predicate<string>(checkStock);
+            bool status = obj3.Invoke(name);
+            if(status)
+            {
+                Console.Clear();
+                Methods.PrintMessage($"Total amount is : {price}");
+                SqlCommand cmd1 = new SqlCommand("insert into Sales values('" + name + "','" + Carname + "'," + price + ",CAST(GETDATE() as date))", mapp.con);
+                mapp.con.Open();
+                cmd1.ExecuteNonQuery();
+                mapp.con.Close();
+            }
+            else
+            {
+                Console.Clear();
+                Methods.PrintMessage("Product Quantity is not Sufficient...");
+            }
+           
+        }
+
+        private static bool checkStock(string name)
+        {
+            MainApp mapp = new MainApp();
+            SqlDataAdapter da1 = new SqlDataAdapter("select * from InitialStock", mapp.con);
+            DataSet ds1 = new DataSet();
+            da1.Fill(ds1);
+            int bodyQuan = int.Parse(ds1.Tables[0].Rows[0][2].ToString());
+            int engineQuan = int.Parse(ds1.Tables[0].Rows[1][2].ToString());
+            int seatQuan = int.Parse(ds1.Tables[0].Rows[2][2].ToString());
+            int doorQuan = int.Parse(ds1.Tables[0].Rows[3][2].ToString());
+            int mirrorQuan = int.Parse(ds1.Tables[0].Rows[4][2].ToString());
+            if((bodyQuan >=1) && (engineQuan >=1) && (seatQuan >=4) && (doorQuan>=5) && (mirrorQuan >= 5))
+            {
+                SqlCommand cmd1 = new SqlCommand("update InitialStock set Quantity=Quantity-1 where id=1 or id=2", mapp.con);
+                SqlCommand cmd2 = new SqlCommand("update InitialStock set Quantity = Quantity - 5 where id = 4 or id = 5", mapp.con);
+                SqlCommand cmd3 = new SqlCommand("update InitialStock set Quantity = Quantity - 4 where id = 3, con)", mapp.con);
+                mapp.con.Open();
+                cmd1.ExecuteNonQuery();
+                cmd2.ExecuteNonQuery();
+                cmd3.ExecuteNonQuery();
+                mapp.con.Close();
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
         }
 
         public void AdminData()
