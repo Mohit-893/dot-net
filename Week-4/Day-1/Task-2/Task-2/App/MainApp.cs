@@ -135,7 +135,12 @@ namespace Task_2.App
 
         private void UpdateQuantity()
         {
-            Methods.PrintMessage("Product quantity is updated");
+            int id = Validate.Convert<int>(" stock id");
+            int quantity = Validate.Convert<int>("New Quantity");
+            SqlCommand cmd2 = new SqlCommand("update InitialStock set Quantity="+quantity+" where id="+id, con);
+            con.Open();
+            cmd2.ExecuteNonQuery();
+            con.Close();
         }
 
         private void BalanceSheet()
@@ -203,7 +208,7 @@ namespace Task_2.App
                     EmployeeLogin(id,name);
                     break;
                 case (int)EmployeeMenu.Salary:
-                    Methods.PrintMessage($"Salary of name for this month is salary");
+                    CalculateSalary(id, name);
                     break;
                 case (int)EmployeeMenu.Logout:
                     EmployeeLogout(id,name);
@@ -212,6 +217,16 @@ namespace Task_2.App
                     Methods.PrintMessage("Invalid Option...", false);
                     break;
             }
+        }
+
+        private void CalculateSalary(int id, string name)
+        {
+            SqlDataAdapter da1 = new SqlDataAdapter("select sum(convert(int,EmployeeWorkingHours.workinghours)) from EmployeeWorkingHours where Emp_ID="+id, con);
+            DataSet ds1 = new DataSet();
+            da1.Fill(ds1);
+            int totalhours = int.Parse(ds1.Tables[0].Rows[0][0].ToString());
+            double Salary = totalhours*80;
+            Methods.PrintMessage($"Your Salary till yet is : {Salary}");
         }
 
         private void EmployeeLogout(int id,string name)
