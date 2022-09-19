@@ -1,11 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Text;
 
 namespace Task_1_VotingSystem_.UI
 {
     class Functions
     {
+
+        static SqlConnection con = new SqlConnection("server=localhost;database=VotingSystem;integrated security=true;");
 
         public static void showCandidateList()
         {
@@ -23,18 +27,54 @@ namespace Task_1_VotingSystem_.UI
         internal static void updateCandidateData(string aadhar, string pan)
         {
             // update isvoted to true
+            
+            SqlCommand cmd = new SqlCommand("update VoterList set isvoted=1 where Aadhar='"+aadhar+"' and pancard='"+pan+"'", con);
+            con.Open();
+            cmd.ExecuteNonQuery();
+            con.Close();
+
         }
 
         internal static void incrementVote(int choice)
         {
-            // increment voterlist table 
+            // increment voterlist table  
+            SqlCommand cmd = new SqlCommand("update Candidate set votes+=1 where id="+choice, con);
+            con.Open();
+            cmd.ExecuteNonQuery();
+            con.Close();
         }
 
         internal static bool isvaliduser(string aadhar, string pan)
         {
             // data match from database 
             // isvoted = false
-            return true;
+            SqlDataAdapter da = new SqlDataAdapter("select * from VoterList", con);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            int x = ds.Tables[0].Rows.Count;
+            if (x > 0)
+            {
+                for(int i = 0; i < x; i++)
+                {
+                    if ((ds.Tables[0].Rows[i][1].ToString() == aadhar) && (ds.Tables[0].Rows[i][2].ToString() == pan))
+                    {
+                        if ((int.Parse(ds.Tables[0].Rows[i][5].ToString()) == 0))
+                            return true;
+                        else
+                        {
+                            Console.WriteLine("User Already Voted!!!");
+                            Console.ReadLine();
+                        }
+                            
+
+                    }
+                }
+            }
+            else
+            {
+                return false;
+            }
+            return false;
         }
     }
 }

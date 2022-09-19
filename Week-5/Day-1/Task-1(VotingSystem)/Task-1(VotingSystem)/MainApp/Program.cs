@@ -7,8 +7,11 @@ namespace Task_1_VotingSystem_
     {
         static void Main(string[] args)
         {
-            start:
+        start:
+            Console.Clear();
+            Console.Write("Enter Aadhar Number : ");
             string aadhar = Console.ReadLine();
+            Console.Write("\nEnter PanCard Number : ");
             string pan = Console.ReadLine();
             if (Functions.isvaliduser(aadhar,pan))
             {
