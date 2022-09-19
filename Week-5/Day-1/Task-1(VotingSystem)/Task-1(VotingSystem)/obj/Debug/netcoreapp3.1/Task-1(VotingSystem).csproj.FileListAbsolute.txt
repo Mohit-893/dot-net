@@ -1,0 +1,14 @@
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-5\Day-1\Task-1(VotingSystem)\Task-1(VotingSystem)\bin\Debug\netcoreapp3.1\Task-1(VotingSystem).exe
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-5\Day-1\Task-1(VotingSystem)\Task-1(VotingSystem)\bin\Debug\netcoreapp3.1\Task-1(VotingSystem).deps.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-5\Day-1\Task-1(VotingSystem)\Task-1(VotingSystem)\bin\Debug\netcoreapp3.1\Task-1(VotingSystem).runtimeconfig.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-5\Day-1\Task-1(VotingSystem)\Task-1(VotingSystem)\bin\Debug\netcoreapp3.1\Task-1(VotingSystem).runtimeconfig.dev.json
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-5\Day-1\Task-1(VotingSystem)\Task-1(VotingSystem)\bin\Debug\netcoreapp3.1\Task-1(VotingSystem).dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-5\Day-1\Task-1(VotingSystem)\Task-1(VotingSystem)\bin\Debug\netcoreapp3.1\Task-1(VotingSystem).pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-5\Day-1\Task-1(VotingSystem)\Task-1(VotingSystem)\obj\Debug\netcoreapp3.1\Task-1(VotingSystem).csproj.AssemblyReference.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-5\Day-1\Task-1(VotingSystem)\Task-1(VotingSystem)\obj\Debug\netcoreapp3.1\Task-1(VotingSystem).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-5\Day-1\Task-1(VotingSystem)\Task-1(VotingSystem)\obj\Debug\netcoreapp3.1\Task-1(VotingSystem).AssemblyInfoInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-5\Day-1\Task-1(VotingSystem)\Task-1(VotingSystem)\obj\Debug\netcoreapp3.1\Task-1(VotingSystem).AssemblyInfo.cs
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-5\Day-1\Task-1(VotingSystem)\Task-1(VotingSystem)\obj\Debug\netcoreapp3.1\Task-1(VotingSystem).csproj.CoreCompileInputs.cache
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-5\Day-1\Task-1(VotingSystem)\Task-1(VotingSystem)\obj\Debug\netcoreapp3.1\Task-1(VotingSystem).dll
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-5\Day-1\Task-1(VotingSystem)\Task-1(VotingSystem)\obj\Debug\netcoreapp3.1\Task-1(VotingSystem).pdb
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-5\Day-1\Task-1(VotingSystem)\Task-1(VotingSystem)\obj\Debug\netcoreapp3.1\Task-1(VotingSystem).genruntimeconfig.cache
