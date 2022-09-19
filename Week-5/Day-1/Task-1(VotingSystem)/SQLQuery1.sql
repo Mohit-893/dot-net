@@ -1,15 +1,21 @@
 create database VotingSystem
 use VotingSystem
 
-create table Candidate(id int identity,Aadhar nvarchar(16),pancard nvarchar(10),state_ nvarchar(30),pincode int,isvoted int,DOB nvarchar(8),UniqueID nvarchar(10))
-select * from Candidate
-drop table Candidate
-insert into Candidate values('','','',,'','')
-
-create table VoterList(id int identity,Name nvarchar(30),votes int)
+create table VoterList(id int identity,Aadhar nvarchar(16),pancard nvarchar(10),state_ nvarchar(30),isvoted int)
 select * from VoterList
-insert into VoterList values('A',0)
-insert into VoterList values('B',0)
-insert into VoterList values('C',0)
-insert into VoterList values('D',0)
-insert into VoterList values('E',0)
+drop table VoterList
+insert into VoterList values('123412341234','ABCDE1234F','Uttar Pradesh',0)
+
+create table Candidate(id int identity,Name nvarchar(30),votes int)
+drop table Candidate
+select * from Candidate
+insert into Candidate values('A',0)
+insert into Candidate values('B',0)
+insert into Candidate values('C',0)
+insert into Candidate values('D',0)
+insert into Candidate values('E',0)
+
+
+create table VoteDate(id int identity,state_ nvarchar(30),v_date nvarchar(10))
+insert into VoteDate values('Uttar Pradesh','09/19/2022')
+select * from VoteDate
