@@ -1,4 +1,5 @@
 ﻿using System;
+using Task_1_VotingSystem_.MainApp;
 using Task_1_VotingSystem_.UI;
 
 namespace Task_1_VotingSystem_
@@ -10,15 +11,14 @@ namespace Task_1_VotingSystem_
         {
         start:
             Console.Clear();
-            Console.Write("Enter Aadhar Number : ");
-            aadhar = Console.ReadLine();
-            Console.Write("\nEnter PanCard Number : ");
-            pan = Console.ReadLine();
+            aadhar = UserInput.UserrInput<string>("Aadhar Number");
+            pan = UserInput.UserrInput<string>("Pancard Number");
 
-            if (Functions.isvaliduser(aadhar,pan))
+            if (Validator.isvaliduser(aadhar,pan))
             {
-                string voteDate = Functions.getVoteDate(aadhar);
-                if (Functions.isvalidDay(voteDate))
+                string voteDate = GetVoteDate.getVoteDate(aadhar);
+                Console.ReadLine();
+                if (Validator.isvalidDay(voteDate))
                 {
                     Voting();
                 }
@@ -32,7 +32,6 @@ namespace Task_1_VotingSystem_
             }
             else
             {
-                Console.Clear();
                 Console.WriteLine("Please Enter correct details");
                 Console.ReadLine();
                 goto start;
@@ -43,17 +42,19 @@ namespace Task_1_VotingSystem_
         private static void Voting()
         {
         otpvalidator:
-            int otp = Functions.GenerateOTP();
+            Console.Clear();
+            int otp = GeneratePin.GenerateOTP();
             Console.WriteLine("\nYour OTP for voting is {0}.Kindly remember it for further procedure.", otp);
             Console.ReadLine();
-            Functions.showCandidateList();
-            var choice = int.Parse(Console.ReadLine());
-            if (Functions.ValidateOTP(otp))
+            Functions func = new Functions();
+            func.showCandidateList();
+            var choice = UserInput.UserrInput<int>("your choice : ");
+            if (Validator.ValidateOTP(otp))
             {
-                Functions.incrementVote(choice);
-                Functions.updateCandidateData(aadhar, pan);
-                Functions.Waiting();
-                Functions.GreetUser();
+                DBUpdateData.incrementVote(choice);
+                DBUpdateData.updateCandidateData(aadhar, pan);
+                func.Waiting();
+                func.GreetUser();
             }
             else
             {
@@ -61,5 +62,9 @@ namespace Task_1_VotingSystem_
                 goto otpvalidator;
             }
         }
+
+        
+
+
     }
 }
