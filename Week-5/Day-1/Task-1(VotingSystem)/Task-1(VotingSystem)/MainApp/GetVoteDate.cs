@@ -22,9 +22,6 @@ namespace Task_1_VotingSystem_.MainApp
             }
             reader.Close();
             con.Close();
-            //SqlDataAdapter da = new SqlDataAdapter("select state_ from VoterList where Aadhar='"+aadhar+"'", con);
-            //DataSet ds = new DataSet();
-            //da.Fill(ds);
             SqlCommand cmd2 = new SqlCommand("select v_date from VoteDate where state_='" + currstate + "'", con);
             con.Open();
             SqlDataReader reader2 = cmd2.ExecuteReader();
