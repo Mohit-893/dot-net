@@ -13,7 +13,6 @@ namespace Task_1_VotingSystem_
             Console.Clear();
             aadhar = UserInput.UserrInput<string>("Aadhar Number");
             pan = UserInput.UserrInput<string>("Pancard Number");
-
             if (Validator.isvaliduser(aadhar,pan))
             {
                 string voteDate = GetVoteDate.getVoteDate(aadhar);
@@ -35,10 +34,8 @@ namespace Task_1_VotingSystem_
                 Console.WriteLine("Please Enter correct details");
                 Console.ReadLine();
                 goto start;
-            }
-            
+            }            
         }
-
         private static void Voting()
         {
         otpvalidator:
@@ -62,9 +59,5 @@ namespace Task_1_VotingSystem_
                 goto otpvalidator;
             }
         }
-
-        
-
-
     }
 }
