@@ -9,11 +9,23 @@ namespace Task_1_VotingSystem_
         public static string aadhar, pan;
         static void Main(string[] args)
         {
+            try
+            {
+                FirstFunc();
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e);
+            }                   
+        }
+
+        private static void FirstFunc()
+        {
         start:
             Console.Clear();
             aadhar = UserInput.UserrInput<string>("Aadhar Number");
             pan = UserInput.UserrInput<string>("Pancard Number");
-            if (Validator.isvaliduser(aadhar,pan))
+            if (Validator.isvaliduser(aadhar, pan))
             {
                 string voteDate = GetVoteDate.getVoteDate(aadhar);
                 Console.ReadLine();
@@ -27,15 +39,16 @@ namespace Task_1_VotingSystem_
                     Console.WriteLine("No Election for today !!!");
                     Console.ReadLine();
                     goto start;
-                }               
+                }
             }
             else
             {
                 Console.WriteLine("Please Enter correct details");
                 Console.ReadLine();
                 goto start;
-            }            
+            }
         }
+
         private static void Voting()
         {
         otpvalidator:
