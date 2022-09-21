@@ -58,7 +58,7 @@ namespace Task_1_VotingSystem_
             Console.ReadLine();
             Functions func = new Functions();
             func.showCandidateList();
-            var choice = UserInput.UserrInput<int>("your choice : ");
+            var choice = UserInput.UserrInput<int>("your choice");
             if (Validator.ValidateOTP(otp))
             {
                 DBUpdateData.incrementVote(choice);
