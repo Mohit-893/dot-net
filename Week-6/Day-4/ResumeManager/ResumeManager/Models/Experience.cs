@@ -23,6 +23,7 @@ namespace ResumeManager.Models
         public string CompanyName { get; set; }
         public string Designation { get; set; }
         [Required]
+        [Range(1,25,ErrorMessage ="Years must bebetween 1 and 25")]
         public int YearsWorked { get; set; }
     }
 }

@@ -4,11 +4,28 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<style>
+    .avatar{
+        vertical-align:middle;
+        width:40px;
+        height:40px;
+        border-radius:50%;
+    }
+</style>
+
+<div class="container btn-group">
+    <div class="col-10">
+        <h1>Applicants</h1>
+    </div>
+    <div class="col-2 btn-group justify-content-end p-3">
+        <a asp-action="Create" class="btn btn-sm btn-success">Create New</a>
+    </div>
+</div>
+@*<h1>Index</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
-</p>
+</p>*@
 <table class="table">
     <thead>
         <tr>
@@ -34,6 +51,9 @@
 @foreach (var item in Model) {
         <tr>
             <td>
+                <img src="~/images/@item.PhotoUrl" alt="" class="avatar" />
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
@@ -49,9 +69,9 @@
                 @Html.DisplayFor(modelItem => item.TotalExperience)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-info">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-primary ml-1">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger ml-1">Delete</a>
             </td>
         </tr>
 }

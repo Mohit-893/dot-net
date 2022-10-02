@@ -417,3 +417,5 @@ C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot
 C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-6\Day-4\ResumeManager\ResumeManager\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-6\Day-4\ResumeManager\ResumeManager\obj\Debug\netcoreapp3.1\Razor\Views\Resume\Index.cshtml.g.cs
 C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-6\Day-4\ResumeManager\ResumeManager\obj\Debug\netcoreapp3.1\Razor\Views\Resume\Create.cshtml.g.cs
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-6\Day-4\ResumeManager\ResumeManager\obj\Debug\netcoreapp3.1\Razor\Views\Resume\Details.cshtml.g.cs
+C:\Users\mohit\OneDrive - Bhavna Software India Pvt.Ltd\Desktop\.net_traning\dot net\Week-6\Day-4\ResumeManager\ResumeManager\obj\Debug\netcoreapp3.1\Razor\Views\Resume\Delete.cshtml.g.cs

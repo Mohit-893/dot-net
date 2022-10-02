@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ResumeManager.Data;
 using ResumeManager.Models;
 using System;
@@ -38,6 +39,8 @@ namespace ResumeManager.Controllers
         [HttpPost]
         public IActionResult Create(Applicant applicant)
         {
+            applicant.Experiences.RemoveAll(n => n.YearsWorked == 0);
+
             string uniqueFileName = GetUploadedFileName(applicant);
             applicant.PhotoUrl = uniqueFileName;
 
@@ -60,6 +63,32 @@ namespace ResumeManager.Controllers
                 }
             }
             return uniqueFileName;
+        }
+
+        public IActionResult Details(int Id)
+        {
+            Applicant applicant = _context.Applicants
+                .Include(e => e.Experiences)
+                .Where(a => a.Id == Id).FirstOrDefault();
+            return View(applicant);
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int Id)
+        {
+            Applicant applicant = _context.Applicants
+                .Include(e => e.Experiences)
+                .Where(a => a.Id == Id).FirstOrDefault();
+            return View(applicant);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(Applicant applicant)
+        {
+            _context.Attach(applicant);
+            _context.Entry(applicant).State = EntityState.Deleted;
+            _context.SaveChanges();
+            return RedirectToAction("index");
         }
     }
 }
